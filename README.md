@@ -8,7 +8,7 @@ Most of the web pages I make tend to be very reliant on javascript, jQuery or ot
 
 The primary focus of this project was to implement smooth parallax scrolling and make the webpage responsive as well.
 
-Devices used to test the responsiveness of this webpage:
+Physical devices used to test the responsiveness of this webpage:
 
 	Mac OSX 10.10.5
 		Screen Size: 13.3 in
@@ -18,4 +18,6 @@ Devices used to test the responsiveness of this webpage:
 	Android 5.1.1
 		Screen Size: 4.6 in
 		Resolution: 720 x 1280
-		Browsers : Chrome Dev (v47.0.2)
+		Browsers : Chrome Dev (v47.0.25)
+
+Some other devices were simulated using Chrome dev tools

@@ -147,42 +147,6 @@ button:focus {
 	height: auto;
 }
 
-/*Hide on Mobile*/
-@media screen and (min-width: 0px) and (max-width: 1062px) {
-	.focus-left {
-		display: none; 
-	}
-	.focus-right {
-		display: none; 
-	}
-	.columns img {
-		width: 100px;
-		height: 100px;
-	}
-	c1 {
-		position: fixed;
-		top:20%;
-		left: 20%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-	}
-	c2 {
-		position: fixed;
-		top:45%;
-		left: 20%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-	}
-	c3 {
-		position: fixed;
-		top:70%;
-		left: 20%;
-		-webkit-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-	}
-
-}
-
 .security {
 	position: fixed;
 	margin:0px;
