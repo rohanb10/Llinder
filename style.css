@@ -45,7 +45,7 @@ body, html {
 }
 
 body {
-	font: 100% / 1.5 Arial;
+	font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -55,7 +55,7 @@ body {
 	background-position: center;
 }
 
-a, h1, h2, h4, h5 {
+a, h1, h2, h4, h5, #group9 .parallax-layer-base {
 	color: #FFFFFF;
 }
 
@@ -115,14 +115,14 @@ button:focus {
 	background-size: cover;
 }
 
-#email-wrapper {
-	width: 400px;
+.signup {
+	padding: 40px;
 	margin: auto;
 }
 
 .email-box {
 	width: 100%;
-	font-size: 30px;
+	font-size: 18px;
 	text-align: center;
 	height: 50px;
 	border: 1px solid #CCCCCC;
@@ -135,10 +135,14 @@ button:focus {
 	border: 2px solid #BEBEDE;
 }
 
+.login-text{
+	color: #FFFFFF;
+	font-size: 70%;
+}
+
 .security {
 	margin:0;
 	padding:0;
-	color: #GHJGHJ
 }
 
 .logo{
