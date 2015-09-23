@@ -61,7 +61,7 @@ a, h1, h2, h4, h5, #group9 .parallax-layer-base {
 
 button {
 	display: inline-block;
-	margin: 0 10px 0 0;
+	margin: 0 10px 20px 0;
 	padding: 15px 15px;
 	font-size: 20px;
 	box-shadow: none;
@@ -140,11 +140,6 @@ button:focus {
 	font-size: 70%;
 }
 
-.security {
-	margin:0;
-	padding:0;
-}
-
 .logo{
 	max-width: 100%;
 	height: auto;
@@ -184,4 +179,32 @@ button:focus {
 		transform: translate(-50%, -50%);
 	}
 
+}
+
+.security {
+	position: fixed;
+	margin:0px;
+	padding:0px;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("cdn/llamas/security.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	text-shadow: 0px 2px #232323;
+}
+
+.security-text {
+	color: white;
+	font-size: 2em;
+	padding-top: 100px;
+}
+
+.footer {
+	position: fixed;
+	left: 50%;
+	bottom: 5%;
 }
