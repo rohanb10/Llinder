@@ -129,6 +129,7 @@ button:focus {
 	outline: 0;
 	border-radius: 15px;
 	margin-bottom: 20px;
+	min-width: 300px;
 }
 
 .email-box:focus {
@@ -158,21 +159,21 @@ button:focus {
 		height: 100px;
 	}
 	c1 {
-		position: absolute;
+		position: fixed;
 		top:20%;
 		left: 20%;
 		-webkit-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 	}
 	c2 {
-		position: absolute;
+		position: fixed;
 		top:45%;
 		left: 20%;
 		-webkit-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 	}
 	c3 {
-		position: absolute;
+		position: fixed;
 		top:70%;
 		left: 20%;
 		-webkit-transform: translate(-50%, -50%);
