@@ -10,6 +10,10 @@ body, html {
 	background-position: center;
 }
 
+h1, h2, h3, h4 {
+	font-weight: initial;
+}
+
 a, h1, h2, h4, h5, #group9 .parallax-layer-base {
 	color: #FFFFFF;
 }
